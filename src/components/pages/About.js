@@ -48,25 +48,7 @@ function About() {
           enrolling in their Full Stack program I am hoping to improve my skill set as a programmer, deepen my
           understanding of web based technologies, and practice working in a collaborative environment.</div>
       </div>
-    </div>
-
-    <footer class="row justify-content-center fixed-bottom">
-      <div class="col-auto">
-        <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link active" target="_blank"
-              href="https://www.linkedin.com/in/connor-m-7b233735/">LinkedIn</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" target="_blank" href="https://www.facebook.com/connor.melton.71">Facebook</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" target="_blank" href="https://github.com/melty100?tab=repositories">Github</a>
-          </li>
-        </ul>
-      </div>
-    </footer>
-    
+    </div>    
   </div>
   );
 }

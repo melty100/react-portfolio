@@ -13,6 +13,26 @@ function App() {
         <Route exact path="/" component={About} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/portfolio" component={Portfolio} />
+
+        <footer class="row justify-content-center fixed-bottom">
+                <div class="col-auto">
+                  <ul class="nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" target="_blank"
+                        href="https://www.linkedin.com/in/connor-m-7b233735/">LinkedIn</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" target="_blank"
+                        href="https://www.facebook.com/connor.melton.71">Facebook</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" target="_blank"
+                        href="https://github.com/melty100?tab=repositories">Github</a>
+                    </li>
+                  </ul>
+                </div>
+          </footer>
+          
       </div>
     </Router>
   );
