@@ -8,7 +8,7 @@ function About() {
 
     <div class="row index-row index-intro justify-content-center">
       <div class="col-sm-5">
-        <img class="index-headshot rounded" src={process.env.PUBLIC_URL + '/assets/images/headshot2.jpg'} alt="Headshot of author"/>
+        <img class="index-headshot rounded" src={'../assets/images/headshot2.jpg'} alt="Headshot of author"/>
         <hr/>
         <h2>Hello, I'm Connor Melton</h2>
         <hr/>
