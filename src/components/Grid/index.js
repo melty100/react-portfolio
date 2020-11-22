@@ -20,7 +20,7 @@ export function Col({ size, children }) {
       className={`${size
         .split(" ")
         .map(size => "col-" + size)
-        .join(" ")} mt-5`}
+        .join(" ")} mt-5 mb-5`}
     >
       {children}
     </div>

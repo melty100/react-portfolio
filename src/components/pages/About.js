@@ -1,5 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "../Grid/index";
+import Headshot from "../assets/images/headshot2.jpg";
+import sdsuImage from "../assets/images/SDSU.jpg";
+import ucsdBootcampImage from "../assets/images/ucsdBootcamp.webp";
 import './style.css'
 
 function About() {
@@ -8,7 +11,7 @@ function About() {
 
     <div class="row index-row index-intro justify-content-center">
       <div class="col-sm-5">
-        <img class="index-headshot rounded" src={'../assets/images/headshot2.jpg'} alt="Headshot of author"/>
+        <img class="index-headshot rounded" src={Headshot} alt="Headshot of author"/>
         <hr/>
         <h2>Hello, I'm Connor Melton</h2>
         <hr/>
@@ -25,7 +28,7 @@ function About() {
         <h3>San Diego State University</h3>
         <h5>B.S. in Computer Science, <i>earned May 2016</i></h5>
         <hr/>
-        <img class="index-image responsive float-left" src="assets/images/SDSU.jpg" alt="SDSU graphic"/>
+        <img class="index-image responsive float-left" src={sdsuImage} alt="SDSU graphic"/>
         <div class="line-height">SDSU offered a unique experience of rich campus life and countless opportunities. My
           three years of learning
           Computer Science from outstanding professors deepened my passion for science, and instilled in me a drive for
@@ -41,7 +44,7 @@ function About() {
         <h3>UCSD Coding Boot Camp</h3>
         <h5>Full Stack Program, <i>graduation in December 2021</i></h5>
         <hr/>
-        <img class="index-image responsive rounded float-left" src="assets/images/ucsdBootcamp.webp"
+        <img class="index-image responsive rounded float-left" src={ucsdBootcampImage}
           alt="UCSD Bootcamp graphic"/>
         <div class="line-height">I’m very excited to continue my education through one of UC San Diego extension’s
           coding boot camps! By

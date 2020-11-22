@@ -10,7 +10,7 @@ function App() {
     <Router>
       <div>
         <NavTabs />
-        <Route exact path="/" component={About} />
+        <Route exact path="/react-portfolio" component={About} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/portfolio" component={Portfolio} />
 
@@ -32,7 +32,7 @@ function App() {
                   </ul>
                 </div>
           </footer>
-          
+
       </div>
     </Router>
   );
